@@ -1,0 +1,24 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "PCAT photo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "keywords": [
+    "Photo",
+    "app",
+    "camera"
+  ],
+  "author": "Yunus Emre",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "3.4.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
