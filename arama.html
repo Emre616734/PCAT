@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+    </head>
+    <body>
+        <style>
+            body {
+              font-family:Verdana, Geneva, Tahoma, sans-serif;
+              background-color: #f4f4f4;
+              padding: 20px;
+              background:linear-gradient(to right,white 50%,white 50%);
+              
+            }
+            .container {
+              max-width: 1300px;
+              height: 300px;
+              margin:  auto;
+              text-align: center;
+            }
+           
+           
+            #Ram{
+                width: 350px;
+                position: relative;
+                right: 100px;;
+                height: 30px;
+                border-radius: 10px;
+                bottom: 50px;
+            }
+            #buton{
+                position: relative;
+                right: 100px;
+                
+                width: 60px;
+                bottom: 40px;                
+                height: 35px;
+                background-color: white;        
+            }
+            #SSD{
+              width:350px ;
+              position: relative;
+              bottom: 47px;
+              right: 70px;
+              border-radius: 10px;
+              height: 30px;
+            }
+            #buton2{
+                position: relative;
+                right: 50px;
+                bottom: 37px;
+                width: 60px;
+                
+                height: 35px;
+                background-color: white;        
+            }
+            #result{
+              position: relative;
+              bottom: 30px;
+              right: 540px;
+              height: 1px;
+              font-weight: bold;
+              font-size: 25px;
+            }
+            #content{
+              width: 300px;
+              position: relative;
+              bottom: 52px;
+              left: 400px;
+              height: 1px;
+              font-weight: bold;
+              font-size: 25px;
+            }
+            #processor{
+              width:353px ;
+              position: relative;
+              bottom:45px;
+              right: 0px;
+              border-radius: 10px;
+              height: 30px;
+            }
+            #buton3{
+              position: relative;
+                left: 20px;
+                bottom: 35px;
+                width: 60px;
+                
+                height: 35px;
+                background-color: white;        
+            }
+            #data{
+              width: 300px;
+              position: relative;
+              bottom: 75px;
+              left: 930px;
+              height: 1px;
+              font-weight: bold;
+              font-size: 25px;  
+            }
+            #finish{
+              position: relative;
+              right: 50px;
+              top: 50 px;
+              font-weight: bolder;
+              font-size: 50px;
+              
+            }
+           #baslik{
+            position: relative; 
+            right: 100px;
+            bottom: 40px;
+            color: black;
+            font-size: bold;
+           }
+           #image{
+            display: none;
+            position: relative;
+            right: 100px;
+           }
+            #foto{
+              width: 100px;
+              height: 50px;
+              background-color: green;
+              color: #f4f4f4;
+            }
+            #cizgi{
+              position: relative;
+              right: 500px;
+              width: 1900px;
+              border-style: solid;
+              border-color: green;
+              display: none;
+              
+            }
+            #legends{ 
+              display: none;
+              position: relative;
+              right: 100px;
+            }
+          </style>
+        </head> 
+        <body>
+          <div class="container">
+            <h1 id="baslik"> Bilgisayar özelliklerini giriniz</h1>
+            <input type="number" id="Ram" placeholder="Ram Bellek girin" /> 
+            <button id="buton" onclick="Ram()">Kontrol et</button>
+            <input type="number" id="SSD" placeholder="SSD Kapasitesini girin (yoksa 0 giriniz)">
+            <button id="buton2" onclick="SSD()">Kontrol et</button>
+            <input type="text"  id="processor" placeholder="İşlemci tipini girin">
+            <button id="buton3" onclick="Processor()">Kontrol et</button>
+            <p id="result"></p>
+            <p id="content"></p>
+            <p id="data"></p>
+            <p id="finish"></p>
+            <button  id="foto" onclick="showİmage()">Oynanabilecek popüler oyunlar</button>
+              <p id="cizgi"> </p>
+            <img  id="image"  src="frcry.jpeg">
+            <img id="legends" src="legends.jpeg">
+            
+            
+          </div>
+        <script src="arama.js"></script>
+    </body> 
+</html>
+
+
+    
